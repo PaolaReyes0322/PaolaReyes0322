@@ -79,8 +79,8 @@ Cada cambio importante tendrá su propio commit, con mensajes siguiendo [Commits
 2. `docs: agregar documentación de la fase de planificación`
 3. `docs: agregar presentación personal al README`
 4. `docs: agregar sección sobre mí`
-5. `feat: agregar sección de habilidades y tecnologías`
-6. `feat: agregar proyectos destacados`
+5. `docs: agregar sección de habilidades y tecnologías`
+6. `docs: agregar proyectos destacados`
 7. `docs: agregar sección de contacto`
 8. `fix: revisar enlaces y ortografía`
 

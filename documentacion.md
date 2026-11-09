@@ -50,3 +50,67 @@ Se analizaron cuatro perfiles:
 - **RNF4. Mantenibilidad:** contenido sencillo de actualizar, solo con Markdown.
 - **RNF5. Privacidad:** no publicar teléfono, dirección, cédula ni otros datos sensibles.
 - **RNF6. Trazabilidad:** commits pequeños con mensajes descriptivos, para que el historial muestre cómo se construyó el perfil.
+
+
+## Fase 2: Planificación y Diseño
+ 
+### 2.1 Estructura del perfil
+  
+1. **Presentación**: nombre y una frase sobre quién soy y qué hago.
+2. **Sobre mí**: formación académica e intereses (sin datos sensibles).
+3. **Habilidades y tecnologías**: herramientas, frameworks y librerías aprendidas en el curso, y dónde las apliqué.
+4. **Proyectos destacados**: mínimo tres, con ficha para cada uno.
+5. **Contacto**: LinkedIn u otro canal profesional.
+ 
+### 2.2 Estrategia de commits
+ 
+Cada cambio importante tendrá su propio commit, con mensajes siguiendo [Commits Convencionales](https://www.conventionalcommits.org/es/v1.0.0-beta.2/):
+ 
+| Tipo | Uso | Ejemplo |
+|------|-----|---------|
+| `docs` | Cambios de contenido o documentación | `docs: agregar presentación personal` |
+| `feat` | Nueva sección o elemento | `feat: agregar proyecto destacado con enlace a demo` |
+| `fix` | Corrección de errores | `fix: corrigir errores de ortografía en README.md` |
+| `style` | Formato sin cambiar el contenido | `style: ajustar jerarquía de títulos` |
+ 
+**Plan de commits previsto:**
+ 
+1. `docs: agregar documentación de la fase de análisis`
+2. `docs: agregar documentación de la fase de planificación`
+3. `docs: agregar presentación personal al README`
+4. `docs: agregar sección sobre mí`
+5. `feat: agregar sección de habilidades y tecnologías`
+6. `feat: agregar proyectos destacados`
+7. `docs: agregar sección de contacto`
+8. `fix: revisar enlaces y ortografía`
+
+### 2.3 Diseño del contenido
+ 
+| Sección | Qué incluiré | Qué evitaré | Formato | Enlaces necesarios |
+|---------|--------------|-------------|---------|--------------------|
+| Presentación | Nombre y frase breve sobre mi perfil | Frases largas o genéricas | Título y párrafo corto | Ninguno |
+| Sobre mí | Formación y áreas de interés | Teléfono, dirección, cédula, fecha de nacimiento | Lista corta | Institución (opcional) |
+| Habilidades y tecnologías | Tecnologías del curso y cómo las apliqué | Listar tecnologías que no he usado | Tabla: tecnología, uso, proyecto donde la apliqué | Documentación oficial (opcional) |
+| Proyectos destacados | Proyectos con descripción y tecnologías | Proyectos sin enlace o sin descripción | Una ficha por proyecto | Repositorio y demo de cada proyecto |
+| Contacto | Un canal profesional | Correo o teléfono personales | Lista o enlace | LinkedIn |
+ 
+**Para facilitar la lectura rápida:** títulos con jerarquía clara, párrafos de máximo tres líneas, listas en vez de bloques de texto, y texto alternativo en toda imagen. Se usará solo Markdown, sin HTML ni CSS, y pocas imágenes externas.
+ 
+### 2.4 Ficha de cada proyecto destacado
+ 
+Plantilla que usaré para cada uno de mis proyectos:
+ 
+#### Nombre del proyecto
+ 
+- **Problema o necesidad que resuelve:**
+- **Tecnologías utilizadas:**
+- **Funcionalidades principales:**
+- **Repositorio:** [enlace]
+- **Demostración:** [enlace, si existe]
+
+### Referencias
+ 
+- Abhisheknaiidu. (s. f.). *awesome-github-profile-readme*. GitHub. https://github.com/abhisheknaiidu/awesome-github-profile-readme
+- Commits Convencionales. (s. f.). https://www.conventionalcommits.org/es/v1.0.0-beta.2/
+- Freecodecamp. (2021). *How to Use the .github Repository*. https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/
+- Markdown Guide. (s. f.). https://www.markdownguide.org/

@@ -59,5 +59,5 @@ Estudiante de Computación en la ESPOL interesada en el desarrollo frontend y en
 ---
 
 ## Contacto
- 
-- [LinkedIn](https://www.linkedin.com/in/paola-reyes-48a4a8410)
+
+[![LinkedIn de Paola Reyes](imagenes/linkedin.png)](https://www.linkedin.com/in/paola-reyes-48a4a8410)

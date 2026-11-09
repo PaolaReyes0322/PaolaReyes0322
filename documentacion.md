@@ -14,8 +14,8 @@ Se analizaron cuatro perfiles:
 |-------------------------|--------------|-----------------|--------------|----------------|
 | **Presentación**| Imagen de cabecera y frase clara: desarrollador senior de Vue.js y Nuxt, freelance. Se entiende de inmediato a qué se dedica. | Saludo con nombre, empleo actual, es decir, ingeniero de software, y ciudad. Tono personal y cercano. | GIF animado de bienvenida con su nombre y listado breve de qué hace y dónde trabaja. Muy llamativo, pero menos directo. | Título con nombre y una frase: desarrollador full stack, años de experiencia, tecnologías y disponibilidad laboral. Muy claro y directo. |
 | **Estructura** | Corta: portafolio y dos productos propios, cada uno con su imagen enlazada. Pocas secciones. | Más larga: presentación, datos rápidos, publicaciones recientes, herramientas y estadísticas. | Muy extensa: sobre mí, en qué trabaja, gists, métricas, actividad, contacto y créditos. | Corta y ordenada: presentación, enlaces, qué construye y stack. Jerarquía simple con títulos. |
-| **Habilidades** | No hay lista explícita; se deducen del título y de los productos. | Íconos de tecnologías (devicon) con texto alternativo; muestran muchas tecnologías sin explicar nivel. | Se deducen de los proyectos y gists; no hay sección formal. | Lista en texto plano de tecnologías (React, Next.js, Node.js, AWS, etc.). Fácil de leer y copiar, pero sin evidencia. |
-| **Proyectos** | Destaca dos productos propios con imagen y enlace al sitio. | Menciona el proyecto actual Cirrus y remite a su GitHub. | Lista de gists y tutoriales enlazados, y enlaces a issues donde necesita ayuda. | Describe tipos de proyectos qué construyo, pero no enlaza a repositorios concretos. |
+| **Habilidades** | No hay lista explícita; se deducen del título y de los productos. | Íconos de tecnologías (Devicon) con texto alternativo; muestran muchas tecnologías sin explicar el nivel. | Se deducen de los proyectos y gists; no hay sección formal. | Lista en texto plano de tecnologías (React, Next.js, Node.js, AWS, etc.). Fácil de leer y copiar, pero sin evidencia. |
+| **Proyectos** | Destaca dos productos propios con imagen y enlace al sitio. | Menciona el proyecto actual Cirrus y remite a su GitHub. | Lista de gists y tutoriales enlazados, y enlaces a issues donde necesita ayuda. | Describe tipos de proyectos que construyo, pero no enlaza a repositorios concretos. |
 | **Contacto** | Solo enlace a su sitio web personal. | Insignias a sitio web, Medium, LinkedIn, Dev.to y Spotify. Hay varios canales. | Redes sociales como LinkedIn, Instagram y Twitter mediante íconos. | Portafolio, CV, LinkedIn y correo electrónico visible en el README. |
 | **Accesibilidad y móvil** | Imágenes con texto alternativo. Depende de imágenes del propio repositorio. | Depende de muchos servicios externos, tales como insignias, GIF y estadísticas. Si fallan, se pierde contenido. | Usa texto en tipografía Unicode "monoespaciada", que los lectores de pantalla suelen leer mal. Depende de servicios externos. | Muy ligera y legible en móvil. Una sola imagen con texto alternativo. |
 
@@ -70,7 +70,7 @@ Cada cambio importante tendrá su propio commit, con mensajes siguiendo [Commits
 |------|-----|---------|
 | `docs` | Cambios de contenido o documentación | `docs: agregar presentación personal` |
 | `feat` | Nueva sección o elemento | `feat: agregar proyecto destacado con enlace a demo` |
-| `fix` | Corrección de errores | `fix: corrigir errores de ortografía en README.md` |
+| `fix` | Corrección de errores | `fix: corregir errores de ortografía en README.md` |
 | `style` | Formato sin cambiar el contenido | `style: ajustar jerarquía de títulos` |
  
 **Plan de commits previsto:**
@@ -82,7 +82,7 @@ Cada cambio importante tendrá su propio commit, con mensajes siguiendo [Commits
 5. `docs: agregar sección de habilidades y tecnologías`
 6. `docs: agregar proyectos destacados`
 7. `docs: agregar sección de contacto`
-8. `fix: revisar enlaces y ortografía`
+8. `fix: corregir enlaces y ortografía`
 
 ### 2.3 Diseño del contenido
  

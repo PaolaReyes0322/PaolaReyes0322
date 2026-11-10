@@ -1,3 +1,5 @@
+![Banner del portafolio de Paola Reyes: estudiante de Computación, frontend y UI/UX](imagenes/banner.png)
+
 # Hola, soy Paola Reyes 👋
 Estudiante de Computación en la ESPOL interesada en el desarrollo frontend y en el diseño de interfaces y experiencia de usuario.
 
